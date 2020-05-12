@@ -94,7 +94,7 @@ updateStrategy:
   type: "Recreate"
 
 service:
-  type: ClusterIP
+  type: LoadBalancer
   port: 5601
   nodePort: ""
   labels: {}
